@@ -1,0 +1,332 @@
+/*Sara Girke 2022 Webbutveckling II Mittuniversitetet*/
+html {
+
+    margin: 0 auto;
+    background-image: url("../images/pink.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+h3 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #FF925F;
+}
+
+.menup {
+    text-align: center;
+}
+
+#errorform {
+  font-weight: bolder;
+  color: #FF925F;
+
+}
+
+#error {
+  font-weight: bolder;
+  color: #FF925F;
+
+}
+
+label {
+    font-family: 'Poppins', sans-serif;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+  }
+  
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+
+  input[type=submit] {
+    width: 100%;
+    background-color: #FF925F;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+  }
+
+  input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+  
+  
+  input[type=submit]:hover {
+    background-color: #ff925f56;
+  }
+
+  .box {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 80%;
+    border: 2px solid;
+    border-color: #FF925F;
+  }
+
+  .navbar {
+    width: 100%;
+    overflow: auto;
+  }
+  
+  /* Navigation links */
+  .navbar a {
+    float: right;
+    padding: 15px;
+    margin-right: 2%;
+    background-color: #B47367;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+  }
+  
+  /* Add a background color on mouse-over */
+  .navbar a:hover {
+    background-color: #FF925F;
+  }
+  
+  /* Style the current/active link */
+  .navbar a.active {
+    background-color: #FF925F;
+  }
+
+  
+  .content {
+    max-width: 90%;
+    margin: auto;
+    margin-top: 5%;
+background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    overflow-x:auto; 
+  }
+
+  .delete {
+    background-color: #FFEBE6;
+    padding: 5px 10px;
+    margin: auto;
+    border-radius: 10px;
+    border: 0px;
+    font-family: 'poppins', sans-serif;
+    font-weight: bolder;
+
+  }
+
+  .update {
+    background-color:#FFEBE6;
+    padding: 5px 10px;
+    margin: auto;
+    border-radius: 10px;
+    border: 0px;
+    font-family: 'poppins', sans-serif;
+    font-weight: bolder;
+  }
+
+  .delete:hover {
+    
+    background-color: #f63636;
+    color: white;
+  }
+
+  
+  .update:hover {
+    
+    background-color: #FF925F;
+  }
+
+    
+  .update:active {
+    
+    background-color: #ff925f95;
+  }
+
+
+  #submit {
+    background-color: #ff925f95;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 18px;
+    font-family:'poppins', sans-serif;
+width: 20%;
+  }
+  
+  #submit:hover {
+    background-color: #FF925F;
+  }
+
+
+  #booksubmit {
+    background-color: #ff925f95;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 18px;
+    font-family:'poppins', sans-serif;
+width: 20%;
+  }
+
+  
+  #booksubmit:hover {
+    background-color: #FF925F;
+  }
+
+
+
+  #foodtable {
+    font-family: 'poppins', sans-serif;
+    margin: 0 auto;
+    background-color: white;
+    padding:5%;
+    border-radius: 2%;
+    border-collapse: collapse;
+    overflow-x: auto;
+font-size: 14px;
+border-collapse: collapse;
+  }
+
+  td, th {
+    font-family: 'poppins', sans-serif;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  tr:nth-child(even) {
+    background-color: #ff925f3f;
+  }
+
+  form {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #booktable {
+    font-family: 'poppins', sans-serif;
+    margin: 0 auto;
+    background-color: white;
+    padding:5%;
+    border-radius: 2%;
+    border-collapse: collapse;
+    overflow-x: auto;
+font-size: 14px;
+border-collapse: collapse;
+  }
+
+
+  /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 700px) {
+
+  td, th {
+    font-family: 'poppins', sans-serif;
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size:11px;
+  }
+
+  .delete {
+    background-color: #ff925f95;
+    padding: 5px 5px;
+    font-size: 10px;
+    margin: auto;
+    border-radius: 10px;
+    border: 0px;
+    font-family: 'poppins', sans-serif;
+    font-weight: bolder;
+  }
+
+  .update {
+    background-color: #ff925f95;
+    padding: 5px 5px;
+    margin: auto;
+    border-radius: 10px;
+    border: 0px;
+    font-family: 'poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 10px;
+  }
+
+  .delete:hover {
+    background-color: #f63636;
+    color: white;
+  }
+  .update:hover {
+    
+    background-color: #FF925F;
+  }
+  .update:active {
+    
+    background-color: #ff925f95;
+  }
+
+    
+  .content {
+    max-width: 100%;
+    margin: auto;
+    margin-top: 5%;
+background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+  }
+
+  #submit {
+    width: 45%;
+  }
+  #booksubmit {
+    width: 45%;
+  }
+}
