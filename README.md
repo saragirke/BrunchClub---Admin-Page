@@ -1,4 +1,4 @@
-# projekt_admin_vt22-saragirke
+# Admmin sida till Brunch Club :coffee: :fork_and_knife: :strawberry:
 I detta repo finns kod till admin-sida där en publik webbplats hanteras.
 För att kunna hantera den publika webbplatsens innehåll behöver användaren logga in till admin-sidan. 
 
@@ -23,6 +23,3 @@ https://studenter.miun.se/~sagi1700/writeable/brunchclubadmin
 **Användarnamn:** adminbrunch \
 **Lösenord:** avokado
 
-
-
-# BrunchClub---Admin-Page
